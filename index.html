@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+	<link rel="icon" href="title.jpg" type="image/x-icon"/>
+  <title>IFA's Website</title><!--游戏引擎(黑) 我的介绍及信息 其他()-->
+</head>
+<style  type="text/css">
+	html,body
+	 {margin: 0;    
+			border:0;
+	  padding: 0;
+	  
+	  } 
+	  
+	  body{ overflow-x:hidden; overflow-y:hidden;}
+	  
+  
+  .other{
+    width: 100%;
+    height: 100vh;
+    background:black;
+  }
+  .other_1{
+    background:white;
+  }
+  .other_2{
+    background:rgb(191,255,255);
+  }
+  .other_3{
+    background:white;
+  }
+  
+  .img1{
+  	position: absolute;
+  	z-index: 1;
+  	left: 420px;
+  	top: 180px;
+  }
+  .img2{
+  	position: absolute;
+  	z-index: 2;
+  	left: 1000px;
+  	top: 480px;
+  }
+  .img3{
+  	position: absolute;
+  	z-index: 3;
+  	left: 880px;
+  	top: 400px;
+  }
+  .img4{
+  	position: absolute;
+  	z-index: 4;
+  	left: 480px;
+  	top: 10px;
+	transform: scale(0.2);
+  }
+  .img5{
+  	position: absolute;
+  	z-index: 5;
+  	left: 880px;
+  	top: 700px;
+  }
+  
+  
+  
+  
+  .trueheimu{
+  	      background-color: #252525;
+  	          color: #000000;
+  	          text-shadow: none;
+  	}
+  	.center{
+  		text-align:center;}
+  	.cube{
+  		float:left;
+  		margin-right: 15px;
+  		background-color: aqua;
+  		padding:5px 10px 5px 10px;
+  	}
+  	.cube:hover{
+  		background-color: #ffffff;
+  	}
+  	.img
+  	{
+  		
+  	position:fixed;
+  	bottom:0px;
+  	left:0px;
+  	z-index: 1;
+  	font-size:0px;
+  	
+  	
+  	}
+  	.sidenav {
+  	    height: 100%;
+  	    width: 160px;
+  	    position: fixed;
+  	    z-index: 1;
+  	    top: 0;
+  	    left: 0;
+  	    background-color: rgb(191,255,255);
+  	    overflow-x: hidden;
+  	    padding-top: 20px;
+  	}
+  	
+  	.sidenav a {
+  	    padding: 6px 8px 6px 16px;
+  	    text-decoration: none;
+  	    font-size: 24px;
+  	    color: rgb(255,0,0);
+  	    display: block;
+  	}
+  	.main {
+  	    margin-left: 160px; /* 与sidenav的宽度相同 */
+  	    padding: 0px 0px;
+  	}
+  	.ct{display: none;}
+  	.at:hover 
+  	.ct{display: inline-block;}
+	
+	
+	
+	
+	#customers
+	  {
+	  }
+	#customers th 
+	  {
+	  background-color:rgb(191,255,255);
+	  color:#ffffff;
+	  }
+	#customers tr.alt td 
+	  {
+	  color:#000000;
+	  background-color:rgb(191,255,255);
+	  }
+</style>
+<body scroll="no">
+	<!--<iframe src="./06_icefreezingarea.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>-->
+	<iframe src="./IFA_Sleep.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+    <div class="other other_0">
+	    <div class="img1"><a href="https://www.unrealengine.com/en-US/"><img src="虚幻logo.png"></a></div>
+		<div class="img2"><a href="https://unity.cn/"><img src="UnityLogo.png"></a></div>
+		<div class="img3"><a href="./movie480.webm"><img src="StoreLogo.png"></a></div>
+		<div class="img4"><a href="https://assetstore.unity.com/packages/3d/characters/animals/toon-fox-183005"><img src="ToonFox.webp"></a></div>
+		<div class="img5"><a href="https://assetstore.unity.com/"><img src="unityassetstore.png"></a></div>
+	</div>
+	
+	
+  <div class="other other_1">
+	  <div>依法(IFA)-中国</div>
+	  <div>描述:体色纯白(伪装色:白)眼睛眨眼瞳孔会3s内从rgb(0,255,255)过渡到rgb(255,255,255)</div>
+	  <div>狐属 身只着白大褂,会恰好盖住翘起的尾巴</div>
+	  <div>(目前无图)</div>
+	  
+	  <h4>设定能力</h4>
+	  <div>任意物体看依法时,依法能获取其位置信息</div>
+	  <div>攻击手段:正常的近战;持有武器;生成冰剑双持;刚体镜面指挥;冰类;光类</div>
+	  <div>正常的近战:肉搏类</div>
+	  <div>持有武器:在游戏中,所有前肢空出的单位都能拿起和使用武器</div>
+	  <div>生成冰剑双持:用预制方程组合成的冰剑生成冰剑,自身双手持用</div>
+	  <div>刚体镜面指挥:拥有6个菱形镜面,可以自由的控制移动方向,支持光反射,支持路径点</div>
+	  <div>冰类:根据方程组生成对应的冰实体,具有刚体、低温、不可摧毁特性</div>
+	  <div>光类:让面心立方单体发射光线,有击毁光(秒杀对方)/指示光(为其他单位提供目标指示)/冰光(降温)/干扰光(瘫痪电子设备) 4种</div>
+	  <div>当此单位存在时,同时拥有 多功能工具的制造权 和 信息协议(1min内60m半径内的信息完全获取,冷却时间30min) 和 防空协议(周边生成强化光类反空装置,瞬间1发秒杀攻击,冷却时间6min) 和 天空协议(瞬间降下高能秒杀激光,冷却时间12min)</div>
+	  <div>有空对空/近战/空对地/拦截/防空/抛物线/超远程7种模式</div>
+	  
+	  
+	  <h3><p>个人信息及联系方式</p></h3>
+	  <div>雄;出生日期1998.9.3;中国安徽合肥人</div>
+	  <div>TEL:(+86)18255126840</div>
+	  <div>address:合肥市紫竹苑小区D区7栋807</div>
+	  <div>QQ:3317596937</div>
+	  <div><a href="https://steamcommunity.com/profiles/76561198981174045/">steam</a></div>
+	  <div>bilibili:Flareon- </div>
+	  <div><a href="https://github.com/IFAFOX">https://github.com/IFAFOX</a></div>
+	  <div>zhihu:FlareonE </div>
+	  <div>邮箱 :icefreefox@gmail.com</div>
+	  <div><a href="https://ifafox.github.io/ashtml/">个人网站</a></div>
+	  <div><a href="https://ifafox.itch.io"></a>itch</div>
+	  <div>weibo:IFAFOX</div>
+  </div>
+  
+  <div class="other other_2">
+	  <h3>项目进度</h3>
+	  <div>依法的最优解:确定为RTS模式,目前卡在小地图点击、模式切换、ai逻辑上</div>
+	  <div>Ori在你桌面玩:卡在动画上,至今未动、音乐播放mp3会有延迟,使得mid演示mp3播放无法实现暂停的效果</div>
+	  <div>手柄即将支持</div>
+	  
+	  <h3>感谢名单</h3>
+	  <h4>Ori部分</h4>
+	  <div>获得桌面图标在屏幕的位置及名字	QQ:域外肆方(=域外創音)</div>
+	  <div><a href="https://github.com/catdevpete/Unity-MIDI-Piano">midi信息获取</a>	</div>
+	  <div><a href="https://zhuanlan.zhihu.com/p/72770529">对象池</a></div>
+	  <div><a href="https://www.bilibili.com/read/cv6833637">窗体透明</a></div>
+	  <div><a href="https://www.bilibili.com/read/cv6833637">鼠标按键瞬间及移动监测和键盘按键瞬间检测</a></div>
+	  <div><a href="https://github.com/keijiro/Skinner">Ori轨迹拖尾</a></div>
+	  <h4>IFA部分</h4>
+	  <div>	<a href="https://assetstore.unity.com/packages/3d/characters/animals/toon-fox-183005">第一个能动的四足动物</a></div>
+	  <div>一元四次方程解法及复数<a href="https://baike.baidu.com/item/%E4%B8%80%E5%85%83%E5%9B%9B%E6%AC%A1%E6%96%B9%E7%A8%8B/5945955?fr=aladdin#5_1">费拉里法求根公式</a> & <a href="https://blog.csdn.net/icykitty/article/details/84502379">https://blog.csdn.net/icykitty/article/details/84502379</a></div>
+	  <div><a href="http://wiki.unity3d.com/index.php?title=ObjExporter">方程组的形成的图形导出成obj文件 </a></div>
+	  <div><a href="https://tieba.baidu.com/p/3372825595?pn=1" >激光</a></div>
+	  
+	  <h4>确定立项后正式游戏前的测试人员(0.1版(包括)到1.0版(不包括)的测试人员)</h4>
+	  <div>zc,若水(草莓/火布),施乌魏溶</div>
+	  <h1><a href="https://ifafox.github.io/ashtml/">旧版网站</a></h1>
+  </div>
+
+  <script>
+    window.addEventListener("mousewheel",WheelGo)
+
+  var cur_index = -1
+  var invoke = false
+  list = [{ele:"other_0"},{ele:"other_1"},{ele:"other_2"}]
+  list = initSrollPosition("body",list)
+
+  function initSrollPosition(ele,list){
+  
+    var container = document.querySelector(ele)
+    for(var i in list){
+      list[i].position = document.querySelector("."+list[i].ele).offsetTop;
+    }
+    return list;
+  }
+  
+    function stopDefault(e){
+		e.preventDefault();
+		return false;
+    }
+
+    function WheelGo(e){
+      //判断当前所处位置
+     
+      var isDown = e.deltaY>0?true:false;
+
+      stopDefault(e);
+      if(invoke){
+      return;
+    }
+      moveTo(isDown)
+
+        
+    }
+    function moveTo(isDown){
+    var cur_state
+    if(isDown){
+      cur_index = cur_index>=list.length-1?list.length-1:cur_index+1
+      var cur_state = list[cur_index]
+    }else{
+      cur_index = cur_index<=0?0:cur_index-1
+       cur_state = list[cur_index]
+    }
+    console.log("invoke")
+    invoke = true
+      window.scrollTo({top:(cur_state.position),left:0,behavior:"smooth"})
+      setTimeout(()=>{
+        invoke = false
+      },500)
+    }
+  </script>
+</body>
+</html>
